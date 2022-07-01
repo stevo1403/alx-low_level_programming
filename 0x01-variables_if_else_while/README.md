@@ -41,6 +41,6 @@
 8. 7-print_tebahpla.c
 9. 8-print_base16.c
 10. 9-print_comb.c
-11.
-12. 
-13.  
+11. 100-print_comb3.c
+12. 101-print_comb4.c
+13. 102-print_comb5.c
