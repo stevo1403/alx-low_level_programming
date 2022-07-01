@@ -22,6 +22,7 @@
 # Linux commands & C functions
 * gcc
 * printf
+* putchar
 
 # Notes
 * The C source code in this project was compiled successfully using `gcc` with the following options: -ansi -Wall -Werror -Wextra -pedantic -std=gnu89
