@@ -15,7 +15,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	lastdigit = n % 10;
 
-	if (abs(n) != n)
+	if (n < 0)
 		lastdigit = -1 * lastdigit;
 
 	if (lastdigit > 5)
