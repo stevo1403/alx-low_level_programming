@@ -1,12 +1,10 @@
 #include <stdio.h>
 
 /**
- * Author: Adebayo Stephen
- * Filename: 6-size.c
- * Date: July 01, 2022 01:42:30
- * Description: Size is not grandeur, and territory does not make a nation
+ * main - Entry point for the application
+ *
+ * Return: The program's exit code
 */
-
 int main(void)
 {
 	char c = 'c';

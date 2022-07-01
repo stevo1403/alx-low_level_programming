@@ -1,12 +1,10 @@
 #include <stdio.h>
 
 /**
- * Author: Adebayo Stephen
- * Filename: 5-printf.c
- * Date: July 01, 2022 01:38:15
- * Description: Hello, printf
+ * main - Entry point for the program
+ *
+ * Return: The program's exit code. Returns 0 indicating success.
 */
-
 int main(void)
 {
 	char message[] = "with proper grammar, but the outcome is a piece of art,";
