@@ -24,7 +24,6 @@ int main(void)
 					continue;
 				if (k > i && k < j)
 					continue;
-				
 				if (i != '0' || j != '1' || k != '2')
 				{
 					putchar(',');
