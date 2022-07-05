@@ -7,13 +7,11 @@
  */
 void times_table(void)
 {
-	int a, b, c, d;
+	int b, c, d;
 	char result[4];
 
-	a = '0';
 	b = 0;
 	c = 0;
-
 	while (1)
 	{
 		if (c == 10)
@@ -29,25 +27,24 @@ void times_table(void)
 			d = 0;
 		else
 			d = b * c;
-		if (d < 9)
+		if (c > 0)
 		{
-			_putchar(a + d);
+			_putchar(',');
+			_putchar(' ');
+		}
+
+		if (d < 10)
+		{
+			if (c > 0)
+				_putchar(' ');
+			_putchar('0' + d);
 		}
 		else
 		{
 			tostring(result, d);
 			print_string(result);
 		}
-		if (c < 9)
-		{
-			_putchar(',');
-			_putchar(' ');
-			if (d < 9)
-				_putchar(' ');
-		}
-
 		c += 1;
-
 	}
 }
 /**
